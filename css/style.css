@@ -24,7 +24,7 @@ body .entries {
   position: relative;
   left: -5px;
 }
-body .entries .entry {
+.entry {
   width: calc(50% - 80px);
   float: left;
   padding: 20px;
@@ -81,4 +81,8 @@ body .entries .entry:nth-child(2n) .title.big:before {
 .subtitle{
   font-size: 20px;
   color: whitesmoke;
+}
+/* MtoseD added whole block */
+.last{
+  padding-bottom: 450px;
 }
