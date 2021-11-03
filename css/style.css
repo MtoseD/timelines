@@ -97,3 +97,13 @@ EDIT ON
     box-shadow: none;
     background: none;
 }
+@media (max-width: 500px) {
+  .carousel{
+    margin-top: -75px;
+    margin-bottom: -75px;
+  }
+  .carousel .carousel-item{
+    width: 150px;
+    height: 150px;
+  }
+}
