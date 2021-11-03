@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: 'Droid Sans', sans-serif;
 }
+
 body:before {
   content: '';
   position: fixed;
@@ -11,12 +12,13 @@ body:before {
   left: 50%;
   bottom: 0px;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   width: 4px;
   background-color: #fff;
   /* MtoseD added line*/
   margin-top: 350px;
 }
+
 body .entries {
   width: calc(100% - 80px);
   max-width: 800px;
@@ -24,6 +26,7 @@ body .entries {
   position: relative;
   left: -5px;
 }
+
 .entry {
   width: calc(50% - 80px);
   float: left;
@@ -31,15 +34,18 @@ body .entries {
   clear: both;
   text-align: right;
 }
+
 /* MtoseD deleted whole block */
 
 /* MtoseD deleted body, .entries & .entry */
+
 .title {
   font-size: 32px;
   margin-bottom: 12px;
   position: relative;
   color: #fff;
 }
+
 body .entries .entry .title:before {
   content: '';
   position: absolute;
@@ -50,39 +56,92 @@ body .entries .entry .title:before {
   border-radius: 100%;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   right: -73px;
   z-index: 1000;
 }
+
 body .entries .entry .title.big:before {
   width: 24px;
   height: 24px;
   -webkit-transform: translate(8px, -50%);
-          transform: translate(8px, -50%);
+  transform: translate(8px, -50%);
 }
+
 body .entries .entry .body {
   color: #aaa;
 }
+
 body .entries .entry .body p {
   line-height: 1.4em;
 }
+
 body .entries .entry:nth-child(2n) {
   text-align: left;
   float: right;
 }
+
 body .entries .entry:nth-child(2n) .title:before {
   left: -63px;
 }
+
 body .entries .entry:nth-child(2n) .title.big:before {
   -webkit-transform: translate(-8px, -50%);
-          transform: translate(-8px, -50%);
+  transform: translate(-8px, -50%);
 }
+
 /* MtoseD added whole block */
-.subtitle{
+
+.subtitle {
   font-size: 20px;
   color: whitesmoke;
 }
+
 /* MtoseD added whole block */
-.last{
+
+.last {
   padding-bottom: 450px;
+}
+
+/* MtoseD responsive */
+
+@media (max-width: 800px) {
+  body .entries {
+    width: 100%;
+    left: 0;
+  }
+  body .entries .entry .title.big:before {
+    height: 16px;
+    width: 16px;
+  }
+  .big {
+    font-size: medium;
+  }
+  .subtitle {
+    font-size: small;
+  }
+}
+
+@media (max-width: 500px) {
+  .carousel-item {
+    width: 80%;
+  }
+  .big {
+    font-size: small;
+  }
+  .subtitle {
+    font-size: smaller;
+  }
+  .body p {
+    font-size: x-small;
+  }
+  body .entries .entry {
+    padding: 10px;
+  }
+  body .entries .entry .title:before {
+    right: -55px;
+  }
+  body .entries .entry:nth-child(2n) .title:before {
+    left: -55px;
+  }
 }
