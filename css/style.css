@@ -94,8 +94,11 @@ EDIT ON
 
 /* MtoseD */
 .card{
-    box-shadow: none;
-    background: none;
+  box-shadow: none;
+  background: none;
+}
+.link{
+  font-size: 20px;
 }
 @media (max-width: 500px) {
   .carousel{
