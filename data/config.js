@@ -7,7 +7,6 @@ Timelines.franchises = [
   "harrypotter",
   "witcher",
   "arrowverse"
-  // not shown right now, data is still in data/: "dcu", "dceu"
 ];
 
 // Tags an entry can have (entry.tag). The key is what goes in the data file,

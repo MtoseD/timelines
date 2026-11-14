@@ -1,6 +1,7 @@
 Timelines.add({
   id: "harrypotter",
   title: "Harry Potter",
+  image: "images/harrypotter.png",
   entries: [
     { title: "Hogwarts Legacy", info: "spielt um 1890", year: "2023", tag: "game" },
     { title: "Phantastische Tierwesen", info: "und wo sie zu finden sind", year: "2016", tag: "movie" },
