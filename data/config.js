@@ -4,8 +4,11 @@ Timelines.franchises = [
   "starwars",
   "mcu",
   "xmen",
+  "dcu",
+  "dceu",
   "arrowverse",
-  "witcher"
+  "witcher",
+  "harrypotter"
 ];
 
 // Tags an entry can have (entry.tag). The key is what goes in the data file,
