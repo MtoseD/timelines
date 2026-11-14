@@ -36,6 +36,8 @@ Timelines.add({
     { title: "Avengers - Endgame", year: "2019", tag: "movie" },
     { title: "Loki", info: "Staffel 1", year: "2021", tag: "series" },
     { title: "What If...?", info: "Staffel 1-3", year: "2021-2024", tag: "series" },
+    { title: "Marvel Zombies", info: "Miniserie, spielt in einem anderen Universum", year: "2025", tag: "series" },
+    { title: "Your Friendly Neighborhood Spider-Man", info: "Staffel 1, eigenes Universum", year: "2025", tag: "series" },
     { title: "Wandavision", info: "Staffel 1", year: "2021", tag: "series" },
     { title: "The Falcon and the Winter Soldier", info: "Staffel 1", year: "2021", tag: "series" },
     { title: "Spider-Man: Far From Home", year: "2019", tag: "movie" },
@@ -44,6 +46,7 @@ Timelines.add({
     { title: "Venom: Let There Be Carnage", year: "2021", tag: "movie" },
     { title: "Morbius", year: "2022", tag: "movie" },
     { title: "Spider-Man: No Way Home", year: "2021", tag: "movie" },
+    { title: "Venom: The Last Dance", year: "2024", tag: "movie" },
     { title: "Doctor Strange: Multiverse of Madness", year: "2022", tag: "movie" },
     { title: "Hawkeye", info: "Staffel 1", year: "2021", tag: "series" },
     { title: "Moon Knight", info: "Staffel 1", year: "2022", tag: "series" },
@@ -59,12 +62,18 @@ Timelines.add({
     { title: "Guardians of the Galaxy Vol. 3", year: "2023", tag: "movie" },
     { title: "Secret Invasion", info: "Staffel 1", year: "2023", tag: "series" },
     { title: "The Marvels", year: "2023", tag: "movie" },
+    { title: "Deadpool & Wolverine", year: "2024", tag: "movie" },
     { title: "Agatha All Along", info: "Staffel 1", year: "2024", tag: "series" },
     { title: "Daredevil: Born Again", info: "Staffel 1", year: "2025", tag: "series" },
     { title: "Captain America: Brave New World", year: "2025", tag: "movie" },
     { title: "Thunderbolts", year: "2025", tag: "movie" },
     { title: "Ironheart", info: "Staffel 1", year: "2025", tag: "series" },
     { title: "Fantastic Four: First Steps", year: "2025", tag: "movie" },
-    { title: "Eyes of Wakanda", info: "Staffel 1", year: "2025", tag: "series" }
+    { title: "Eyes of Wakanda", info: "Staffel 1", year: "2025", tag: "series" },
+    { title: "Wonder Man", info: "Staffel 1", year: "2026", tag: "series" },
+    { title: "Daredevil: Born Again", info: "Staffel 2", year: "2026", tag: "series" },
+    { title: "The Punisher: One Last Kill", year: "2026", tag: "special" },
+    { title: "Spider-Man: Brand New Day", year: "2026", tag: "movie" },
+    { title: "VisionQuest", info: "Staffel 1", year: "2026", tag: "series" }
   ]
 });
